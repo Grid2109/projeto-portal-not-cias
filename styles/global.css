@@ -10,6 +10,7 @@
     --background-color: #0F172A;
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+    --stroke-color: #1E293B;
 
     --font-family: 'Archivo', sans-serif;
     --h1: 800 24px/135% var(--font-family);
@@ -37,4 +38,18 @@ a:hover {
 
 h1, h2, h3 {
     font: inherit;
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
